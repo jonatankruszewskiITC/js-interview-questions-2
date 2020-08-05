@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test01": "jest --testPathPattern=tests/01_FirstRepeat.test.js",
+    "test02": "jest --testPathPattern=tests/02_CommonElements.test.js",
+    "test03": "jest --testPathPattern=tests/03_ReverseLetters.test.js",
+    "test04": "jest --testPathPattern=tests/04_CheckSubstring.test.js",
+    "test05": "jest --testPathPattern=tests/05_CountDigits.test.js",
+    "test06": "jest --testPathPattern=tests/06_PhoneLettersCombinations.test.js",
+    "test": "jest --testPathPattern=tests/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.2.2",
+    "jest": "^26.2.2"
+  }
+}
